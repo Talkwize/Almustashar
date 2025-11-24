@@ -1,8 +1,5 @@
-
-
 const myName = "Neamah Hasan";
 const h1 = document.querySelector(".heading-primary");
-
 
 // h1.addEventListener("click", function () {
 //   h1.textContent = myName;
@@ -23,7 +20,7 @@ const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventListener("click", function () {
-  headerEl.classList.remove("nav-open");
+  headerEl.classList.toggle("nav-open");
 });
 
 ///////////////////////////////////////////////////////////
